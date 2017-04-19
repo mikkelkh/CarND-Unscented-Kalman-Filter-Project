@@ -74,6 +74,14 @@ public:
   ///* the current NIS for laser
   double NIS_laser_;
 
+  Tools tools_;
+
+  MatrixXd H_laser_;
+
+  MatrixXd R_laser_;
+
+  MatrixXd R_radar_;
+
   /**
    * Constructor
    */
